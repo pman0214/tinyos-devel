@@ -51,7 +51,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     vb.gui = false
     vb.customize ["modifyvm", :id, "--memory",  "4096"]
     vb.customize ["modifyvm", :id, "--cpus",    "2"]
-    vb.customize ["modifyvm", :id, "--cpuexecutioncap", "50"]
     vb.customize ["modifyvm", :id, "--natdnsproxy1", "off"]
     vb.customize ["modifyvm", :id, "--natdnshostresolver1", "off"]
   end
@@ -72,5 +71,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
     chef.add_recipe "apt"
     chef.add_recipe "git"
+    chef.add_recipe "chef-tinyos"
   end
 end

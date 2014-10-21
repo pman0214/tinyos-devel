@@ -32,3 +32,6 @@
 [submodule "tinyos-main"]
 	path = tinyos-main
 	url = https://github.com/pman0214/tinyos-main.git
+[submodule "cookbooks/chef-tinyos"]
+	path = cookbooks/chef-tinyos
+	url = https://github.com/pman0214/chef-tinyos.git

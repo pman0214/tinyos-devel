@@ -15,7 +15,10 @@
 	- git (debian package)
 	- 各種ビルドツール (debian package)
 		- gcc, make等
-	- avr-gcc (debian package)
+	- gcc-avr (debian package)
+	- avrdude (debian package)
+	- java (debian package, openjdk-7)
+	- emacs (debian package)
 - ホストへのPort forwarding
 	- SSH - guest:22 -> host:2222
 
