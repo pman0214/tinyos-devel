@@ -64,7 +64,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     chef.cookbooks_path = "cookbooks"
     # chef.log_level = :debug
     chef.json = {
-      "tinyos" => {
+      "chef-tinyos" => {
         "main-dir" => "~/tinyos-main"
       }
     }
