@@ -42,6 +42,12 @@ $ vagrant plugin install vagrant-proxyconf
 
 ### レポジトリのclone
 - Windowsユーザは`git`をインストールしておく．
+	- Windowsの場合には改行コードを自動で変換する設定でインストールされるので，以下のコマンドを実行しておく．
+
+```
+$ git config --global autocrlf false
+```
+	
 - gitを使って以下のレポジトリをcloneし，submoduleを入手する．
 
 ```
